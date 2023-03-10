@@ -1,0 +1,8 @@
+prefix=/mingw64
+includedir=${prefix}/include
+
+Name: py3cairo
+Description: Python 3 bindings for cairo
+Version: 1.23.0
+Requires: cairo
+Cflags: -I${includedir}/pycairo
