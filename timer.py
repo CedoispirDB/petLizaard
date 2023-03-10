@@ -8,7 +8,7 @@ def send_message():
 
     # local image from drive
     seconds = (time.ctime(time.time()))
-    seconds = seconds[10:16]
+    seconds = seconds[10:16]       
 
     # file = 'logo.jpg'
     # image = open(file, 'rb')
